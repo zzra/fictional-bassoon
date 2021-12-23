@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- person02 scale values -->
+    <fraction name="person02_scaleX">0.85</fraction>
+    <fraction name="person02_scaleY">0.85</fraction>
+</resources>

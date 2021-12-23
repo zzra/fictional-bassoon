@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- person02 scale values -->
+    <dimen name="person02_translateX">-150dp</dimen>
+    <dimen name="person02_marginTop">50dp</dimen>
+
+    <!-- action bar -->
+    <dimen name="actionbar_height">60dp</dimen>
+
+    <!-- person item -->
+    <dimen name="personhead_marginTop">30dp</dimen>
+    <dimen name="personitem_margin">5dp</dimen>
+
+    <!-- recycler item -->
+    <dimen name="recycler_title_text">30dp</dimen>
+    <dimen name="recycler_detail_text">20dp</dimen>
+</resources>

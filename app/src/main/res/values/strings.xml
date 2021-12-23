@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">What Should I Wear</string>
+
+    <!-- action bar menu items -->
+    <string name="home">Home</string>
+    <string name="outfits">Outfits</string>
+    <string name="history">History</string>
+
+    <!-- edit fragments -->
+    <string name="editHead">Edit Head</string>
+    <string name="editTop">Edit Top</string>
+    <string name="editBottom">Edit Bottom</string>
+
+    <!-- recycler item -->
+    <string name="recycler_protection">Detail:</string>
+</resources>
