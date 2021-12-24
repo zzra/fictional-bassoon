@@ -1,10 +1,11 @@
-package com.example.whatshouldiwear;
 /** class for storing database configuration information
  * hellishly long and should be split in some way
  *
  * @author Peter Saunders
  * @version 1.0
  */
+package com.example.whatshouldiwear;
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -203,7 +204,7 @@ public class WhatShouldIWearDB {
     public ArrayList<Item> getOutfitItems(int outfitId) {
         String where = OUTFIT_ID + "= ?";
         String[] whereArgs = { Integer.toString(outfitId) };
-        ArrayList<Item> outfit = new ArrayList<>();
+        ArrayList<Item> outfit = new ArrayList<Item>();
         int itemId = -1;
 
         // first get list of item ids for the outfit
@@ -357,7 +358,7 @@ public class WhatShouldIWearDB {
     public ArrayList<Item> getItemsForPosition(int position) {
         String where = ITEM_POSITION + "= ?";
         String[] whereArgs = { Integer.toString(position) };
-        ArrayList<Item> positionItems = new ArrayList<>();
+        ArrayList<Item> positionItems = new ArrayList<Item>();
 
         // first get list of item ids for the outfit
         this.openReadableDB();
