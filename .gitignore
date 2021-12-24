@@ -4,8 +4,8 @@ video/
 
 #ignore android studio gradle build crap crap
 *.iml
-*.gradle/
-*.idea/
+.gradle/
+.idea/
 local.properties
 
 # ignore keys
