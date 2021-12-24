@@ -2,6 +2,9 @@
 video/
 *.mp4
 
+#ignore android studio grade crap
+*.iml
+
 # ignore keys
 *.mp4
 *.jks
