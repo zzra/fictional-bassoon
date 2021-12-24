@@ -1,8 +1,8 @@
-# ignore videos
+#ignore videos
 video/
 *.mp4
 
-# ignore android studio gradle build crap crap
+#ignore android studio gradle build crap crap
 *.iml
 .gradle/
 .idea/
